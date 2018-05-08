@@ -13,7 +13,7 @@ describe('wrap', () => {
         expect(wrap("", 5)).to.equal("");
     });
     it('correctly handles line breaks', () => {
-        expect(wrap("Lorem ipsum dolor sit eu amet, elit na magna sem amet nulla vel purus ac ligula.", 20)).to.equal("Lorem ipsum dolor\n sit eu amet, elit na\n magna sem amet nulla\n vel purus ac ligula.");
+        expect(wrap("Lorem ipsum dolor sit eu amet, elit na magna sem amet nulla vel purus ac ligula.", 20)).to.equal("Lorem ipsum dolor\nsit eu amet, elit na\nmagna sem amet nulla\nvel purus ac ligula.");
     });
 });
 
